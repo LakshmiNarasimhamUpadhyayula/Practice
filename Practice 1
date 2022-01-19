@@ -1,0 +1,140 @@
+package pro1;
+
+public class swap {
+	public static void main(String[] args) {
+	// Swap 2 with temp
+		int a = 100;
+		int b = 200;
+		int c = 0;
+		System.out.println("Before Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b);
+		
+		 c = a;
+		 a = b;
+		 b = c;
+		 
+		System.out.println("After Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b);
+		
+	// Swap 2 without temp
+		 a = 1;
+		 b = 2;
+		 
+		System.out.println("Before Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b);
+		
+		 a = a + b;
+		 b = a - b;
+		 a = a - b;
+		 
+		System.out.println("After Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b);
+		
+		// Swap 3 with temp
+		 a = 100;
+		 b = 200;
+		 c = 300;
+		 int d = 0;
+		System.out.println("Before Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c);
+		
+		 d = a;
+		 a = b;
+		 b = c;
+		 c = d;
+		 
+		System.out.println("After Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c);
+		
+	// Swap 3 without temp
+		 a = 1;
+		 b = 2;
+		 c = 3;
+		 
+		System.out.println("Before Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c);
+		
+		 a = a + b + c;
+		 b = a - b ;
+		 c = b - c;
+		 b = b - c;
+		 a = a - b - c;
+		
+		System.out.println("After Swapping:");
+		System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c);
+		
+		// Swap 4 with temp
+				 a = 100;
+				 b = 200;
+				 c = 300;
+				 d = 400;
+		     int e = 0;
+				System.out.println("Before Swapping:");
+				System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c + "\t" + "d=" + d);
+				
+				 e = a;
+				 a = b;
+				 b = c;
+				 c = d;
+				 d = a;
+				 
+				System.out.println("After Swapping:");
+				System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c + "\t" + "d=" + d);
+				
+			// Swap 4 without temp
+				 a = 1;
+				 b = 2;
+				 c = 3;
+				 d = 4;
+				 
+				System.out.println("Before Swapping:");
+				System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c + "\t" + "d=" + d);
+				
+				 a = a + b;
+				 b = a - b;
+				 a = a - b;
+				 c = c + d;
+				 d = c - d;
+				 c = c - d;
+				
+				System.out.println("After Swapping:");
+				System.out.println("a=" + a + "\t" + "b=" + b + "\t" + "c=" + c + "\t" + "d=" + d);
+				
+			// jio
+				double price = 699;
+				double gst = 0.18 * price;
+				System.out.println("Total Price=" + (price+gst));
+				
+			//Dominos
+				
+				double dprice = 399.0 * 2;
+				double discount = 0.2 * dprice;
+				System.out.println("Total Price=" + (dprice - discount));
+				
+			//salary
+				double salary = 85000;
+				System.out.println("Tax Amount=" + ((0.2 * salary)));
+				
+			//Sarath
+				double p = 5000000;
+				double t = 5;
+				double r = 6.8;
+				double interest = p*t*r/100;
+				System.out.println("Total Interest=" + interest);
+				System.out.println("Total Amount=" + (p + interest));
+				
+			//Hima
+				double bsal = 85000;
+				double ta = 0.15 * bsal;
+				double da = 0.2 * bsal;
+				double hra = 0.18 * bsal;
+				double pf = 0.2 * bsal;
+				double btax = 0.25 * bsal;
+				double ga = bsal + ta + da + hra;
+				double na = ga - (pf + btax);
+				System.out.println("Gross Amount=" + ga);
+				System.out.println("Net Amount=" + na);
+				
+			}
+
+}
